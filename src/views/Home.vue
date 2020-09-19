@@ -540,7 +540,7 @@ export default {
     @media only screen and (min-width: 1920px) {
       .cards{
         width: 300px;
-        height: 300px;
+        height: auto;
       }
       .contains{
         background-position-x: right;
