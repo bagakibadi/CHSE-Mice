@@ -18,72 +18,112 @@
         <h1>Yogyakarta</h1>
         <img src="../assets/icon/Yogyakarta.svg" style="margin-top:-45px">
         <div class="d-flex buton" style="margin-top: -30px">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Yogyakarta"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Yogyakarta"><div class="btn btn-primary">Online</div></a>
-        </div>
-      </div>
-      <div class="cards">
-        <h1>Surabaya</h1>
-        <img src="../assets/icon/Surabaya.svg" style="margin-top:-18px">
-        <div class="d-flex buton" style="margin-top: -58px;">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Surabaya"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Surabaya"><div class="btn btn-primary">Online</div></a>
-        </div>
-      </div>
-      <div class="cards">
-        <h1>Medan</h1>
-        <img src="../assets/icon/Medan.svg" >
-        <div class="d-flex buton" style="margin-top: -75px">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Medan"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Medan"><div class="btn btn-primary">Online</div></a>
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Yogyakarta"> -->
+          <div
+          @click="offYogyakarta"
+           class="btn btn-primary">Offline</div>
+           <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Yogyakarta"> -->
+          <div
+          @click="onYogyakarta"
+           class="btn btn-primary">Online</div>
+           <!-- </a> -->
         </div>
       </div>
       <div class="cards">
         <h1>Bandung</h1>
         <img src="../assets/icon/Bandung.svg" style="margin-top:-15px">
         <div class="d-flex buton" style="margin-top: -60px">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Bandung"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Bandung"><div class="btn btn-primary">Online</div></a>
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Bandung"> -->
+          <div @click="offBandung" class="btn btn-primary">Offline</div>
+          <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Bandung"> -->
+          <div @click="onBandung" class="btn btn-primary">Online</div>
+          <!-- </a> -->
+        </div>
+      </div>
+      <div class="cards">
+        <h1>Medan</h1>
+        <img src="../assets/icon/Medan.svg" >
+        <div class="d-flex buton" style="margin-top: -75px">
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Medan"> -->
+          <div @click="offMedan" class="btn btn-primary">Offline</div>
+          <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Medan"> -->
+          <div @click="onMedan" class="btn btn-primary">Online</div>
+          <!-- </a> -->
+        </div>
+      </div>
+      <div class="cards">
+        <h1>Surabaya</h1>
+        <img src="../assets/icon/Surabaya.svg" style="margin-top:-18px">
+        <div class="d-flex buton" style="margin-top: -58px;">
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Surabaya"> -->
+          <div @click="offSurabaya" class="btn btn-primary">Offline</div>
+          <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Surabaya"> -->
+          <div @click="onSurabaya" class="btn btn-primary">Online</div>
+          <!-- </a> -->
         </div>
       </div>
       <div class="cards">
         <h1>Manado</h1>
         <img src="../assets/icon/Manado.svg" >
         <div class="d-flex buton" style="margin-top: -75px">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Manado"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Manado"><div class="btn btn-primary">Online</div></a>
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Manado"> -->
+          <div @click="offManado" class="btn btn-primary">Offline</div>
+          <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Manado"> -->
+          <div @click="onManado" class="btn btn-primary">Online</div>
+          <!-- </a> -->
         </div>
       </div>
       <div class="cards">
         <h1>Lombok</h1>
         <img src="../assets/icon/Lombok.svg" style="margin-top:-15px">
         <div class="d-flex buton" style="margin-top: -60px">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Lombok"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Lombok"><div class="btn btn-primary">Online</div></a>
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Lombok"> -->
+          <div @click="offLombok" class="btn btn-primary">Offline</div>
+          <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Lombok"> -->
+          <div @click="onLombok" class="btn btn-primary">Online</div>
+          <!-- </a> -->
         </div>
       </div>
       <div class="cards">
         <h1>Batam</h1>
         <img src="../assets/icon/Batam.svg" >
         <div class="d-flex buton" style="margin-top: -60px">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Batam"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Batam"><div class="btn btn-primary">Online</div></a>
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Batam"> -->
+          <div @click="offBatam" class="btn btn-primary">Offline</div>
+          <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Batam"> -->
+          <div @click="onBatam" class="btn btn-primary">Online</div>
+          <!-- </a> -->
         </div>
       </div>
       <div class="cards">
         <h1>Semarang</h1>
         <img src="../assets/icon/Semarang.svg" >
         <div class="d-flex buton" style="margin-top: -60px">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Semarang"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Semarang"><div class="btn btn-primary">Online</div></a>
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Semarang"> -->
+          <div @click="offSemarang" class="btn btn-primary">Offline</div>
+          <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Semarang"> -->
+          <div @click="onSemarang" class="btn btn-primary">Online</div>
+          <!-- </a> -->
         </div>
       </div>
       <div class="cards">
         <h1>Jakarta</h1>
         <img src="../assets/icon/Jakarta.svg" style="margin-top:-30px">
         <div class="d-flex buton" style="margin-top: -30px">
-          <a href="https://mice.id/CHSEHBDIVING/offline/Jakarta"><div class="btn btn-primary">Offline</div></a>
-          <a href="https://mice.id/CHSEHBDIVING/online/Jakarta"><div class="btn btn-primary">Online</div></a>
+          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Jakarta"> -->
+          <div @click="offJakarta" class="btn btn-primary">Offline</div>
+          <!-- </a> -->
+          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Jakarta"> -->
+          <div @click="onJakarta" class="btn btn-primary">Online</div>
+          <!-- </a> -->
         </div>
       </div>
     </div>
@@ -91,8 +131,299 @@
 </template>
 
 <script>
-export default {
+import Swal from 'sweetalert2';
 
+export default {
+  methods: {
+    offYogyakarta() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Yogyakarta';
+        }
+      });
+    },
+    onYogyakarta() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Yogyakarta';
+        }
+      });
+    },
+    offBandung() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Bandung';
+        }
+      });
+    },
+    onBandung() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Bandung';
+        }
+      });
+    },
+    offMedan() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Medan';
+        }
+      });
+    },
+    onMedan() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Medan';
+        }
+      });
+    },
+    offSurabaya() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Surabaya';
+        }
+      });
+    },
+    onSurabaya() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Surabaya';
+        }
+      });
+    },
+    offManado() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Manado';
+        }
+      });
+    },
+    onManado() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Manado';
+        }
+      });
+    },
+    offLombok() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Lombok';
+        }
+      });
+    },
+    onLombok() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Lombok';
+        }
+      });
+    },
+    offBatam() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Batam';
+        }
+      });
+    },
+    onBatam() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Batam';
+        }
+      });
+    },
+    offSemarang() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Semarang';
+        }
+      });
+    },
+    onSemarang() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Semarang';
+        }
+      });
+    },
+    offJakarta() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara offline?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/offline/Jakarta';
+        }
+      });
+    },
+    onJakarta() {
+      Swal.fire({
+        text: ' ',
+        title: 'Apakah bapak/ibu akan menghadiri meeting secara online?',
+        // icon: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Ya',
+        cancelButtonText: 'Tidak',
+      }).then((result) => {
+        if (result.isConfirmed) {
+          window.location.href = 'https://mice.id/CHSEHBDIVING/online/Jakarta';
+        }
+      });
+    },
+  },
 };
 </script>
 
