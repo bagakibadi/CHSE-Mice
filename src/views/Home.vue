@@ -18,112 +18,81 @@
         <h1>Yogyakarta</h1>
         <img src="../assets/icon/Yogyakarta.svg" style="margin-top:-45px">
         <div class="d-flex buton" style="margin-top: -30px">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Yogyakarta"> -->
-          <div
-          @click="offYogyakarta"
-           class="btn btn-primary">Offline</div>
-           <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Yogyakarta"> -->
-          <div
-          @click="onYogyakarta"
-           class="btn btn-primary">Online</div>
-           <!-- </a> -->
+          <div @click="offYogyakarta" class="btn btn-primary">Offline</div>
+          <div @click="onYogyakarta" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
       <div class="cards">
         <h1>Bandung</h1>
         <img src="../assets/icon/Bandung.svg" style="margin-top:-15px">
         <div class="d-flex buton" style="margin-top: -60px">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Bandung"> -->
           <div @click="offBandung" class="btn btn-primary">Offline</div>
-          <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Bandung"> -->
-          <div @click="onBandung" class="btn btn-primary">Online</div>
-          <!-- </a> -->
+          <div @click="onBandung" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
       <div class="cards">
         <h1>Medan</h1>
         <img src="../assets/icon/Medan.svg" >
         <div class="d-flex buton" style="margin-top: -75px">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Medan"> -->
           <div @click="offMedan" class="btn btn-primary">Offline</div>
-          <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Medan"> -->
-          <div @click="onMedan" class="btn btn-primary">Online</div>
-          <!-- </a> -->
+          <div @click="onMedan" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
       <div class="cards">
         <h1>Surabaya</h1>
         <img src="../assets/icon/Surabaya.svg" style="margin-top:-18px">
         <div class="d-flex buton" style="margin-top: -58px;">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Surabaya"> -->
           <div @click="offSurabaya" class="btn btn-primary">Offline</div>
-          <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Surabaya"> -->
-          <div @click="onSurabaya" class="btn btn-primary">Online</div>
-          <!-- </a> -->
+          <div @click="onSurabaya" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
       <div class="cards">
         <h1>Manado</h1>
         <img src="../assets/icon/Manado.svg" >
         <div class="d-flex buton" style="margin-top: -75px">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Manado"> -->
           <div @click="offManado" class="btn btn-primary">Offline</div>
-          <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Manado"> -->
-          <div @click="onManado" class="btn btn-primary">Online</div>
-          <!-- </a> -->
+          <div @click="onManado" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
       <div class="cards">
         <h1>Lombok</h1>
         <img src="../assets/icon/Lombok.svg" style="margin-top:-15px">
         <div class="d-flex buton" style="margin-top: -60px">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Lombok"> -->
           <div @click="offLombok" class="btn btn-primary">Offline</div>
-          <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Lombok"> -->
-          <div @click="onLombok" class="btn btn-primary">Online</div>
-          <!-- </a> -->
+          <div @click="onLombok" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
       <div class="cards">
         <h1>Batam</h1>
         <img src="../assets/icon/Batam.svg" >
         <div class="d-flex buton" style="margin-top: -60px">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Batam"> -->
           <div @click="offBatam" class="btn btn-primary">Offline</div>
-          <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Batam"> -->
-          <div @click="onBatam" class="btn btn-primary">Online</div>
-          <!-- </a> -->
+          <div @click="onBatam" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
       <div class="cards">
         <h1>Semarang</h1>
         <img src="../assets/icon/Semarang.svg" >
         <div class="d-flex buton" style="margin-top: -60px">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Semarang"> -->
           <div @click="offSemarang" class="btn btn-primary">Offline</div>
-          <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Semarang"> -->
-          <div @click="onSemarang" class="btn btn-primary">Online</div>
-          <!-- </a> -->
+          <div @click="onSemarang" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
       <div class="cards">
         <h1>Jakarta</h1>
         <img src="../assets/icon/Jakarta.svg" style="margin-top:-30px">
         <div class="d-flex buton" style="margin-top: -30px">
-          <!-- <a href="https://mice.id/CHSEHBDIVING/offline/Jakarta"> -->
           <div @click="offJakarta" class="btn btn-primary">Offline</div>
-          <!-- </a> -->
-          <!-- <a href="https://mice.id/CHSEHBDIVING/online/Jakarta"> -->
-          <div @click="onJakarta" class="btn btn-primary">Online</div>
-          <!-- </a> -->
+          <div @click="onJakarta" class="btn btn-primary"
+          style="background: #FFCD1E;border:1px solid #ffcd1e">Online</div>
         </div>
       </div>
     </div>
@@ -428,6 +397,10 @@ export default {
 </script>
 
 <style scoped>
+  @font-face {
+    font-family: 'Magistoe';
+    src: url('../assets/font/magistoe/Magistoe.ttf');
+  }
   a{
     text-decoration: none;
     color: white;
@@ -439,10 +412,9 @@ export default {
       flex-direction: column;
       align-items: center;
       padding: 0 0 40px 0;
-      background-image: url('https://i.ibb.co/rFWp2r1/Group-9.png');
+      background-image: url('https://i.ibb.co/L0Tsm7R/background-05-3-150x-1.png');
       background-repeat: no-repeat;
-      background-position-x: 13px;
-      /* background-position-y: 20px; */
+      background-size: cover;
     }
     .headers{
       margin-top: 15px;
@@ -481,8 +453,9 @@ export default {
     }
     .cards h1{
       font-weight: normal;
-      font-size: 25px;
+      font-size: 45px;
       padding: 20px 0 0 0;
+      font-family: 'Magistoe';
     }
     .buton {
       margin-top: -20px;
@@ -494,9 +467,6 @@ export default {
       width: 130px;
       border-radius: 100px;
     }
-    /* .cards img{
-      margin-top: -20px;
-    } */
     .topnav{
       position: relative;
       width: 100%;
@@ -506,7 +476,6 @@ export default {
       width: 100%;
       height: 70px;
       position: fixed;
-      /* box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.25);; */
       display: flex;
       align-items: center;
       background: transparent;
@@ -518,9 +487,10 @@ export default {
     }
     @media only screen and (max-width: 600px) {
       .contains {
-        /* padding-left: 20px;
-        padding-right: 20px; */
+        background: url('https://i.ibb.co/yBBSb67/background-mobile-bott-150x.png') bottom, url('https://i.ibb.co/hYfbhMT/background-mobile-up-150x.png') top;
         box-sizing: border-box;
+        background-size: contain;
+        background-repeat: no-repeat;
       }
       .cards{
         margin: 20px 0;
